@@ -1,6 +1,6 @@
 # Webpack 5 
 
-Template para ser utializado como start de uma nova aplicação/site web
+Template para ser utilizado como start de uma nova aplicação/site web
 
 ## Criar o projeto npm e instalando webpack
 npm init -y
@@ -66,8 +66,9 @@ document.body.appendChild( imgComponent(imgBTC) )
 
 ## Configurando os arquivos de saída
 
+~~~
 echo > ./config/webpack.config.js
-
+~~~
 
 
 
@@ -186,7 +187,7 @@ git clone https://github.com/dannyrooh/webpack5-start.git
 npm i
 ~~~
 
-executando a aplicação
+**executando a aplicação**
 ~~~
 npm run serve
 ~~~
